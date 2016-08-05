@@ -1,0 +1,4 @@
+MavenPro-Black.ttf: Version 1.003
+MavenPro-Bold.ttf: Version 1.003
+MavenPro-Medium.ttf: Version 1.003
+MavenPro-Regular.ttf: Version 1.003
