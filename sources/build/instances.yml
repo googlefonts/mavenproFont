@@ -1,0 +1,14 @@
+masters:
+    Regular:
+        value: 400
+        stem: 72
+
+    Black:
+        value: 900
+        stem: 172
+instances:
+    Medium:
+        stem: 92
+
+    Bold:
+        stem: 120
