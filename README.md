@@ -11,6 +11,7 @@ Maven Pro is a sans-serif typeface with unique curvature and flowing rhythm. Its
 
 # Todo:
 - Improve README.md
+- Fix MM compatibility
 - Fix glyphs, anchors and components
 - Run fonts through Font bakery and Ship fonts
 - Add TRADEMARKS.md
