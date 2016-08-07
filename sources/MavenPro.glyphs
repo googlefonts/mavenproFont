@@ -16,7 +16,7 @@ value = "Maven Pro is a trademark of Vissol Ltd. www.vissol.co.uk ";
 },
 {
 name = license;
-value = "Copyright (c) 2011, Joe Prince, Vissol Ltd. (http://www.vissol.co.uk/mavenpro/) with Reserved Font Name Maven Pro.\012- This Font Software is licensed under the SIL Open Font License, Version 1.1.\012- This license is available with a FAQ at: http://scripts.sil.org/OFL";
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
 },
 {
 name = fsType;
