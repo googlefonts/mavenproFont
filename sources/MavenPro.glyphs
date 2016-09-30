@@ -1,5 +1,5 @@
 {
-.appVersion = "913";
+.appVersion = "924";
 copyright = "Copyright (c) 2011, The Maven Pro Project Authors (Joe Prince)";
 customParameters = (
 {
@@ -143,11 +143,11 @@ value = -210;
 },
 {
 name = winDescent;
-value = 210;
+value = 233;
 },
 {
 name = winAscent;
-value = 966;
+value = 1065;
 }
 );
 descender = -200;
@@ -189,11 +189,11 @@ value = -210;
 },
 {
 name = winDescent;
-value = 210;
+value = 233;
 },
 {
 name = winAscent;
-value = 966;
+value = 1065;
 }
 );
 descender = -200;
