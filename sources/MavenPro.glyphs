@@ -1,6 +1,6 @@
 {
 .appVersion = "924";
-copyright = "Copyright (c) 2011, The Maven Pro Project Authors (Joe Prince)";
+copyright = "Copyright 2011 The Maven Pro Project Authors";
 customParameters = (
 {
 name = licenseURL;
@@ -20,21 +20,7 @@ value = "This Font Software is licensed under the SIL Open Font License, Version
 },
 {
 name = fsType;
-value = "New Parameter";
-},
-{
-name = panose;
 value = (
-"2",
-"0",
-"0",
-"0",
-"0",
-"0",
-"0",
-"0",
-"0",
-"0"
 );
 },
 {
@@ -2660,7 +2646,7 @@ unicode = 1EC4;
 },
 {
 glyphname = Edblgrave;
-lastChange = "2016-08-31 15:02:43 +0000";
+lastChange = "2016-10-03 15:35:02 +0000";
 layers = (
 {
 components = (
@@ -2669,7 +2655,7 @@ name = E;
 },
 {
 name = dblgravecomb.case;
-transform = "{1, 0, 0, 1, 106, 0}";
+transform = "{1, 0, 0, 1, 106, 168}";
 }
 );
 layerId = UUID0;
@@ -4009,7 +3995,7 @@ unicode = 00CE;
 },
 {
 glyphname = Idblgrave;
-lastChange = "2016-08-18 19:18:52 +0000";
+lastChange = "2016-10-03 15:35:48 +0000";
 layers = (
 {
 components = (
@@ -4018,7 +4004,7 @@ name = I;
 },
 {
 name = dblgravecomb.case;
-transform = "{1, 0, 0, 1, -80, 0}";
+transform = "{1, 0, 0, 1, -80, 168}";
 }
 );
 layerId = UUID0;
@@ -34790,17 +34776,59 @@ unicode = 007C;
 },
 {
 glyphname = brokenbar;
-lastChange = "2016-08-08 17:33:29 +0000";
+lastChange = "2016-10-03 15:27:03 +0000";
 layers = (
 {
 layerId = UUID0;
-width = 600;
+paths = (
+{
+closed = 1;
+nodes = (
+"185 219 LINE",
+"185 -99 LINE",
+"257 -99 LINE",
+"257 219 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"257 347 LINE",
+"257 665 LINE",
+"185 665 LINE",
+"185 347 LINE"
+);
+}
+);
+width = 443;
 },
 {
 layerId = "ECACF70C-BE42-4FA5-B3A0-AFDA71FB1D31";
-width = 600;
+paths = (
+{
+closed = 1;
+nodes = (
+"185 217 LINE",
+"185 -99 LINE",
+"317 -99 LINE",
+"317 217 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"317 351 LINE",
+"317 667 LINE",
+"185 667 LINE",
+"185 351 LINE"
+);
 }
 );
+width = 491;
+}
+);
+leftMetricsKey = bar;
+rightMetricsKey = bar;
 unicode = 00A6;
 },
 {
@@ -37043,17 +37071,17 @@ width = 242;
 },
 {
 glyphname = dblgravecomb.case;
-lastChange = "2016-08-18 19:16:17 +0000";
+lastChange = "2016-10-03 15:35:39 +0000";
 layers = (
 {
 anchors = (
 {
 name = _top;
-position = "{201, 667}";
+position = "{201, 499}";
 },
 {
 name = top;
-position = "{171, 819}";
+position = "{140, 691}";
 }
 );
 components = (
@@ -38579,20 +38607,6 @@ width = 404;
 );
 },
 {
-glyphname = NULL;
-lastChange = "2016-08-05 09:27:59 +0000";
-layers = (
-{
-layerId = UUID0;
-width = 0;
-},
-{
-layerId = "ECACF70C-BE42-4FA5-B3A0-AFDA71FB1D31";
-width = 0;
-}
-);
-},
-{
 glyphname = IJacute;
 lastChange = "2016-08-31 15:06:46 +0000";
 layers = (
@@ -38710,6 +38724,51 @@ layerId = UUID0;
 width = 255;
 }
 );
+},
+{
+glyphname = nbspace;
+lastChange = "2016-10-03 15:13:36 +0000";
+layers = (
+{
+layerId = UUID0;
+width = 290;
+},
+{
+layerId = "ECACF70C-BE42-4FA5-B3A0-AFDA71FB1D31";
+width = 270;
+}
+);
+unicode = 00A0;
+},
+{
+glyphname = CR;
+lastChange = "2016-10-03 15:13:36 +0000";
+layers = (
+{
+layerId = UUID0;
+width = 290;
+},
+{
+layerId = "ECACF70C-BE42-4FA5-B3A0-AFDA71FB1D31";
+width = 270;
+}
+);
+unicode = 000D;
+},
+{
+glyphname = NULL;
+lastChange = "2016-10-03 15:13:36 +0000";
+layers = (
+{
+layerId = UUID0;
+width = 0;
+},
+{
+layerId = "ECACF70C-BE42-4FA5-B3A0-AFDA71FB1D31";
+width = 0;
+}
+);
+unicode = 0000;
 },
 {
 glyphname = Acute;
