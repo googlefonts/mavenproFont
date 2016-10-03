@@ -7,10 +7,6 @@ name = licenseURL;
 value = "http://scripts.sil.org/OFL";
 },
 {
-name = description;
-value = "Copyright (c) 2011 by Vissol Ltd. All rights reserved.";
-},
-{
 name = trademark;
 value = "Maven Pro is a trademark of Vissol Ltd. www.vissol.co.uk ";
 },
@@ -804,7 +800,7 @@ unicode = 1EAA;
 },
 {
 glyphname = Adblgrave;
-lastChange = "2016-09-02 17:50:50 +0000";
+lastChange = "2016-10-03 15:43:15 +0000";
 layers = (
 {
 components = (
@@ -813,7 +809,7 @@ name = A;
 },
 {
 name = dblgravecomb.case;
-transform = "{1, 0, 0, 1, 122, 0}";
+transform = "{1, 0, 0, 1, 122, 168}";
 }
 );
 layerId = UUID0;
@@ -39064,11 +39060,11 @@ value = -210;
 },
 {
 name = winDescent;
-value = 210;
+value = 233;
 },
 {
 name = winAscent;
-value = 966;
+value = 1065;
 }
 );
 interpolationWeight = 400;
@@ -39105,11 +39101,11 @@ value = -210;
 },
 {
 name = winDescent;
-value = 210;
+value = 233;
 },
 {
 name = winAscent;
-value = 966;
+value = 1065;
 }
 );
 interpolationWeight = 550;
@@ -39148,11 +39144,11 @@ value = -210;
 },
 {
 name = winDescent;
-value = 210;
+value = 233;
 },
 {
 name = winAscent;
-value = 966;
+value = 1065;
 }
 );
 interpolationWeight = 750;
@@ -39192,11 +39188,11 @@ value = -210;
 },
 {
 name = winDescent;
-value = 210;
+value = 233;
 },
 {
 name = winAscent;
-value = 966;
+value = 1065;
 }
 );
 interpolationWeight = 900;
