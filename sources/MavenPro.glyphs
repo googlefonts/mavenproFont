@@ -1,5 +1,5 @@
 {
-.appVersion = "924";
+.appVersion = "926";
 copyright = "Copyright (c) 2011, The Maven Pro Project Authors (Joe Prince)";
 customParameters = (
 {
@@ -818,7 +818,7 @@ unicode = 1EAA;
 },
 {
 glyphname = Adblgrave;
-lastChange = "2016-09-02 17:50:50 +0000";
+lastChange = "2016-10-05 15:22:50 +0000";
 layers = (
 {
 components = (
@@ -827,7 +827,7 @@ name = A;
 },
 {
 name = dblgravecomb.case;
-transform = "{1, 0, 0, 1, 122, 0}";
+transform = "{1, 0, 0, 1, 122, 168}";
 }
 );
 layerId = UUID0;
@@ -2660,7 +2660,7 @@ unicode = 1EC4;
 },
 {
 glyphname = Edblgrave;
-lastChange = "2016-08-31 15:02:43 +0000";
+lastChange = "2016-10-05 15:22:52 +0000";
 layers = (
 {
 components = (
@@ -2669,7 +2669,7 @@ name = E;
 },
 {
 name = dblgravecomb.case;
-transform = "{1, 0, 0, 1, 106, 0}";
+transform = "{1, 0, 0, 1, 106, 168}";
 }
 );
 layerId = UUID0;
@@ -4009,7 +4009,7 @@ unicode = 00CE;
 },
 {
 glyphname = Idblgrave;
-lastChange = "2016-08-18 19:18:52 +0000";
+lastChange = "2016-10-05 15:22:52 +0000";
 layers = (
 {
 components = (
@@ -4018,7 +4018,7 @@ name = I;
 },
 {
 name = dblgravecomb.case;
-transform = "{1, 0, 0, 1, -80, 0}";
+transform = "{1, 0, 0, 1, -80, 168}";
 }
 );
 layerId = UUID0;
@@ -6198,7 +6198,7 @@ unicode = 1ED6;
 },
 {
 glyphname = Odblgrave;
-lastChange = "2016-08-18 19:17:39 +0000";
+lastChange = "2016-10-05 15:22:56 +0000";
 layers = (
 {
 components = (
@@ -6207,7 +6207,7 @@ name = O;
 },
 {
 name = dblgravecomb.case;
-transform = "{1, 0, 0, 1, 166, 0}";
+transform = "{1, 0, 0, 1, 166, 168}";
 }
 );
 layerId = UUID0;
@@ -7844,7 +7844,7 @@ unicode = 0156;
 },
 {
 glyphname = Rdblgrave;
-lastChange = "2016-08-18 19:17:33 +0000";
+lastChange = "2016-10-05 15:22:56 +0000";
 layers = (
 {
 components = (
@@ -7853,7 +7853,7 @@ name = R;
 },
 {
 name = dblgravecomb.case;
-transform = "{1, 0, 0, 1, 95, 0}";
+transform = "{1, 0, 0, 1, 95, 168}";
 }
 );
 layerId = UUID0;
@@ -9126,7 +9126,7 @@ unicode = 00DB;
 },
 {
 glyphname = Udblgrave;
-lastChange = "2016-08-31 19:54:48 +0000";
+lastChange = "2016-10-05 15:22:57 +0000";
 layers = (
 {
 components = (
@@ -9135,7 +9135,7 @@ name = U;
 },
 {
 name = dblgravecomb.case;
-transform = "{1, 0, 0, 1, 145, 0}";
+transform = "{1, 0, 0, 1, 145, 168}";
 }
 );
 layerId = UUID0;
@@ -37043,13 +37043,13 @@ width = 242;
 },
 {
 glyphname = dblgravecomb.case;
-lastChange = "2016-08-18 19:16:17 +0000";
+lastChange = "2016-10-05 15:22:50 +0000";
 layers = (
 {
 anchors = (
 {
 name = _top;
-position = "{201, 667}";
+position = "{201, 499}";
 },
 {
 name = top;
