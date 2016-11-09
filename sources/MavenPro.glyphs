@@ -1,6 +1,6 @@
 {
-.appVersion = "924";
-copyright = "Copyright 2011 The Maven Pro Project Authors";
+.appVersion = "930";
+copyright = "Copyright 2011 The Maven Pro Project Authors (http://www.vissol.co.uk/mavenpro/), with Reserved Font Name \"Maven Pro\".";
 customParameters = (
 {
 name = licenseURL;
