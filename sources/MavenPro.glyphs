@@ -1,5 +1,5 @@
 {
-.appVersion = "930";
+.appVersion = "939";
 copyright = "Copyright 2011 The Maven Pro Project Authors (http://www.vissol.co.uk/mavenpro/), with Reserved Font Name \"Maven Pro\".";
 customParameters = (
 {
@@ -6180,7 +6180,7 @@ unicode = 1ED6;
 },
 {
 glyphname = Odblgrave;
-lastChange = "2016-08-18 19:17:39 +0000";
+lastChange = "2016-10-05 15:22:56 +0000";
 layers = (
 {
 components = (
@@ -6189,7 +6189,7 @@ name = O;
 },
 {
 name = dblgravecomb.case;
-transform = "{1, 0, 0, 1, 166, 0}";
+transform = "{1, 0, 0, 1, 166, 168}";
 }
 );
 layerId = UUID0;
@@ -7826,7 +7826,7 @@ unicode = 0156;
 },
 {
 glyphname = Rdblgrave;
-lastChange = "2016-08-18 19:17:33 +0000";
+lastChange = "2016-10-05 15:22:56 +0000";
 layers = (
 {
 components = (
@@ -7835,7 +7835,7 @@ name = R;
 },
 {
 name = dblgravecomb.case;
-transform = "{1, 0, 0, 1, 95, 0}";
+transform = "{1, 0, 0, 1, 95, 168}";
 }
 );
 layerId = UUID0;
@@ -9108,7 +9108,7 @@ unicode = 00DB;
 },
 {
 glyphname = Udblgrave;
-lastChange = "2016-08-31 19:54:48 +0000";
+lastChange = "2016-10-05 15:22:57 +0000";
 layers = (
 {
 components = (
@@ -9117,7 +9117,7 @@ name = U;
 },
 {
 name = dblgravecomb.case;
-transform = "{1, 0, 0, 1, 145, 0}";
+transform = "{1, 0, 0, 1, 145, 168}";
 }
 );
 layerId = UUID0;
@@ -28242,7 +28242,7 @@ unicode = 002C;
 },
 {
 glyphname = ellipsis;
-lastChange = "2016-08-05 09:29:49 +0000";
+lastChange = "2016-12-13 13:06:50 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -28283,15 +28283,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"800 0 LINE",
-"800 138 LINE",
-"656 138 LINE",
-"656 0 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
 "251 0 LINE",
 "251 138 LINE",
 "107 138 LINE",
@@ -28305,6 +28296,15 @@ nodes = (
 "525 138 LINE",
 "381 138 LINE",
 "381 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"800 0 LINE",
+"800 138 LINE",
+"656 138 LINE",
+"656 0 LINE"
 );
 }
 );
