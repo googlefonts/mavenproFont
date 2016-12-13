@@ -1,11 +1,6 @@
 {
-<<<<<<< HEAD
-.appVersion = "926";
-copyright = "Copyright (c) 2011, The Maven Pro Project Authors (Joe Prince)";
-=======
-.appVersion = "930";
+.appVersion = "939";
 copyright = "Copyright 2011 The Maven Pro Project Authors (http://www.vissol.co.uk/mavenpro/), with Reserved Font Name \"Maven Pro\".";
->>>>>>> m4rc1e/master
 customParameters = (
 {
 name = licenseURL;
@@ -805,11 +800,7 @@ unicode = 1EAA;
 },
 {
 glyphname = Adblgrave;
-<<<<<<< HEAD
-lastChange = "2016-10-05 15:22:50 +0000";
-=======
 lastChange = "2016-10-03 15:43:15 +0000";
->>>>>>> m4rc1e/master
 layers = (
 {
 components = (
@@ -2651,11 +2642,7 @@ unicode = 1EC4;
 },
 {
 glyphname = Edblgrave;
-<<<<<<< HEAD
-lastChange = "2016-10-05 15:22:52 +0000";
-=======
 lastChange = "2016-10-03 15:35:02 +0000";
->>>>>>> m4rc1e/master
 layers = (
 {
 components = (
@@ -4004,11 +3991,7 @@ unicode = 00CE;
 },
 {
 glyphname = Idblgrave;
-<<<<<<< HEAD
-lastChange = "2016-10-05 15:22:52 +0000";
-=======
 lastChange = "2016-10-03 15:35:48 +0000";
->>>>>>> m4rc1e/master
 layers = (
 {
 components = (
@@ -28259,7 +28242,7 @@ unicode = 002C;
 },
 {
 glyphname = ellipsis;
-lastChange = "2016-08-05 09:29:49 +0000";
+lastChange = "2016-12-13 13:06:50 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -28300,15 +28283,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"800 0 LINE",
-"800 138 LINE",
-"656 138 LINE",
-"656 0 LINE"
-);
-},
-{
-closed = 1;
-nodes = (
 "251 0 LINE",
 "251 138 LINE",
 "107 138 LINE",
@@ -28322,6 +28296,15 @@ nodes = (
 "525 138 LINE",
 "381 138 LINE",
 "381 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"800 0 LINE",
+"800 138 LINE",
+"656 138 LINE",
+"656 0 LINE"
 );
 }
 );
@@ -37084,11 +37067,7 @@ width = 242;
 },
 {
 glyphname = dblgravecomb.case;
-<<<<<<< HEAD
-lastChange = "2016-10-05 15:22:50 +0000";
-=======
 lastChange = "2016-10-03 15:35:39 +0000";
->>>>>>> m4rc1e/master
 layers = (
 {
 anchors = (
