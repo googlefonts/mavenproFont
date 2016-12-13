@@ -1,14 +1,15 @@
 {
+<<<<<<< HEAD
 .appVersion = "926";
 copyright = "Copyright (c) 2011, The Maven Pro Project Authors (Joe Prince)";
+=======
+.appVersion = "930";
+copyright = "Copyright 2011 The Maven Pro Project Authors (http://www.vissol.co.uk/mavenpro/), with Reserved Font Name \"Maven Pro\".";
+>>>>>>> m4rc1e/master
 customParameters = (
 {
 name = licenseURL;
 value = "http://scripts.sil.org/OFL";
-},
-{
-name = description;
-value = "Copyright (c) 2011 by Vissol Ltd. All rights reserved.";
 },
 {
 name = trademark;
@@ -20,21 +21,7 @@ value = "This Font Software is licensed under the SIL Open Font License, Version
 },
 {
 name = fsType;
-value = "New Parameter";
-},
-{
-name = panose;
 value = (
-"2",
-"0",
-"0",
-"0",
-"0",
-"0",
-"0",
-"0",
-"0",
-"0"
 );
 },
 {
@@ -818,7 +805,11 @@ unicode = 1EAA;
 },
 {
 glyphname = Adblgrave;
+<<<<<<< HEAD
 lastChange = "2016-10-05 15:22:50 +0000";
+=======
+lastChange = "2016-10-03 15:43:15 +0000";
+>>>>>>> m4rc1e/master
 layers = (
 {
 components = (
@@ -2660,7 +2651,11 @@ unicode = 1EC4;
 },
 {
 glyphname = Edblgrave;
+<<<<<<< HEAD
 lastChange = "2016-10-05 15:22:52 +0000";
+=======
+lastChange = "2016-10-03 15:35:02 +0000";
+>>>>>>> m4rc1e/master
 layers = (
 {
 components = (
@@ -4009,7 +4004,11 @@ unicode = 00CE;
 },
 {
 glyphname = Idblgrave;
+<<<<<<< HEAD
 lastChange = "2016-10-05 15:22:52 +0000";
+=======
+lastChange = "2016-10-03 15:35:48 +0000";
+>>>>>>> m4rc1e/master
 layers = (
 {
 components = (
@@ -34790,17 +34789,59 @@ unicode = 007C;
 },
 {
 glyphname = brokenbar;
-lastChange = "2016-08-08 17:33:29 +0000";
+lastChange = "2016-10-03 15:27:03 +0000";
 layers = (
 {
 layerId = UUID0;
-width = 600;
+paths = (
+{
+closed = 1;
+nodes = (
+"185 219 LINE",
+"185 -99 LINE",
+"257 -99 LINE",
+"257 219 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"257 347 LINE",
+"257 665 LINE",
+"185 665 LINE",
+"185 347 LINE"
+);
+}
+);
+width = 443;
 },
 {
 layerId = "ECACF70C-BE42-4FA5-B3A0-AFDA71FB1D31";
-width = 600;
+paths = (
+{
+closed = 1;
+nodes = (
+"185 217 LINE",
+"185 -99 LINE",
+"317 -99 LINE",
+"317 217 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"317 351 LINE",
+"317 667 LINE",
+"185 667 LINE",
+"185 351 LINE"
+);
 }
 );
+width = 491;
+}
+);
+leftMetricsKey = bar;
+rightMetricsKey = bar;
 unicode = 00A6;
 },
 {
@@ -37043,7 +37084,11 @@ width = 242;
 },
 {
 glyphname = dblgravecomb.case;
+<<<<<<< HEAD
 lastChange = "2016-10-05 15:22:50 +0000";
+=======
+lastChange = "2016-10-03 15:35:39 +0000";
+>>>>>>> m4rc1e/master
 layers = (
 {
 anchors = (
@@ -37053,7 +37098,7 @@ position = "{201, 499}";
 },
 {
 name = top;
-position = "{171, 819}";
+position = "{140, 691}";
 }
 );
 components = (
@@ -38579,20 +38624,6 @@ width = 404;
 );
 },
 {
-glyphname = NULL;
-lastChange = "2016-08-05 09:27:59 +0000";
-layers = (
-{
-layerId = UUID0;
-width = 0;
-},
-{
-layerId = "ECACF70C-BE42-4FA5-B3A0-AFDA71FB1D31";
-width = 0;
-}
-);
-},
-{
 glyphname = IJacute;
 lastChange = "2016-08-31 15:06:46 +0000";
 layers = (
@@ -38710,6 +38741,51 @@ layerId = UUID0;
 width = 255;
 }
 );
+},
+{
+glyphname = nbspace;
+lastChange = "2016-10-03 15:13:36 +0000";
+layers = (
+{
+layerId = UUID0;
+width = 290;
+},
+{
+layerId = "ECACF70C-BE42-4FA5-B3A0-AFDA71FB1D31";
+width = 270;
+}
+);
+unicode = 00A0;
+},
+{
+glyphname = CR;
+lastChange = "2016-10-03 15:13:36 +0000";
+layers = (
+{
+layerId = UUID0;
+width = 290;
+},
+{
+layerId = "ECACF70C-BE42-4FA5-B3A0-AFDA71FB1D31";
+width = 270;
+}
+);
+unicode = 000D;
+},
+{
+glyphname = NULL;
+lastChange = "2016-10-03 15:13:36 +0000";
+layers = (
+{
+layerId = UUID0;
+width = 0;
+},
+{
+layerId = "ECACF70C-BE42-4FA5-B3A0-AFDA71FB1D31";
+width = 0;
+}
+);
+unicode = 0000;
 },
 {
 glyphname = Acute;
@@ -39005,11 +39081,11 @@ value = -210;
 },
 {
 name = winDescent;
-value = 210;
+value = 233;
 },
 {
 name = winAscent;
-value = 966;
+value = 1065;
 }
 );
 interpolationWeight = 400;
@@ -39046,11 +39122,11 @@ value = -210;
 },
 {
 name = winDescent;
-value = 210;
+value = 233;
 },
 {
 name = winAscent;
-value = 966;
+value = 1065;
 }
 );
 interpolationWeight = 550;
@@ -39089,11 +39165,11 @@ value = -210;
 },
 {
 name = winDescent;
-value = 210;
+value = 233;
 },
 {
 name = winAscent;
-value = 966;
+value = 1065;
 }
 );
 interpolationWeight = 750;
@@ -39133,11 +39209,11 @@ value = -210;
 },
 {
 name = winDescent;
-value = 210;
+value = 233;
 },
 {
 name = winAscent;
-value = 966;
+value = 1065;
 }
 );
 interpolationWeight = 900;
