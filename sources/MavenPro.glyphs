@@ -1,5 +1,5 @@
 {
-.appVersion = "948";
+.appVersion = "983";
 copyright = "Copyright 2011 The Maven Pro Project Authors (http://www.vissol.co.uk/mavenpro/), with Reserved Font Name \"Maven Pro\".";
 customParameters = (
 {
@@ -14993,36 +14993,24 @@ unicode = 1E2F;
 },
 {
 glyphname = idotaccent;
-lastChange = "2016-08-17 15:22:26 +0000";
+lastChange = "2017-03-13 10:58:38 +0000";
 layers = (
 {
-layerId = UUID0;
-paths = (
+components = (
 {
-closed = 1;
-nodes = (
-"160 588 LINE",
-"160 667 LINE",
-"80 667 LINE",
-"80 588 LINE"
-);
+name = i;
 }
 );
+layerId = UUID0;
 width = 240;
 },
 {
-layerId = "ECACF70C-BE42-4FA5-B3A0-AFDA71FB1D31";
-paths = (
+components = (
 {
-closed = 1;
-nodes = (
-"246 569 LINE",
-"246 700 LINE",
-"60 700 LINE",
-"60 569 LINE"
-);
+name = i;
 }
 );
+layerId = "ECACF70C-BE42-4FA5-B3A0-AFDA71FB1D31";
 width = 306;
 }
 );
@@ -39478,5 +39466,5 @@ tH = "65";
 };
 };
 versionMajor = 2;
-versionMinor = 1;
+versionMinor = 2;
 }
