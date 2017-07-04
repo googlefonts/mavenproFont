@@ -1,5 +1,5 @@
 {
-.appVersion = "983";
+.appVersion = "1037";
 copyright = "Copyright 2011 The Maven Pro Project Authors (http://www.vissol.co.uk/mavenpro/), with Reserved Font Name \"Maven Pro\".";
 customParameters = (
 {
@@ -15903,7 +15903,7 @@ unicode = 0138;
 },
 {
 glyphname = l;
-lastChange = "2016-08-17 15:36:52 +0000";
+lastChange = "2017-07-04 12:27:53 +0000";
 layers = (
 {
 anchors = (
@@ -15913,7 +15913,7 @@ position = "{116, 0}";
 },
 {
 name = center;
-position = "{116, 250}";
+position = "{256, 320}";
 },
 {
 name = top;
@@ -15946,7 +15946,7 @@ position = "{150, 0}";
 },
 {
 name = center;
-position = "{150, 269}";
+position = "{340, 389}";
 },
 {
 name = top;
@@ -16114,34 +16114,91 @@ unicode = 013C;
 },
 {
 glyphname = ldot;
-lastChange = "2016-08-18 17:08:03 +0000";
+lastChange = "2017-07-04 12:32:10 +0000";
 layers = (
 {
-components = (
+anchors = (
 {
-name = l;
+name = bottom;
+position = "{116, 0}";
 },
 {
-name = periodcentered;
-transform = "{1, 0, 0, 1, -47, -25}";
+name = center;
+position = "{274, 329}";
+},
+{
+name = top;
+position = "{116, 689}";
+},
+{
+name = topright;
+position = "{207, 499}";
 }
 );
 layerId = UUID0;
-width = 232;
+paths = (
+{
+closed = 1;
+nodes = (
+"152 689 LINE",
+"80 689 LINE",
+"80 0 LINE",
+"152 0 LINE"
+);
 },
 {
-components = (
-{
-alignment = -1;
-name = l;
+closed = 1;
+nodes = (
+"315 286 LINE",
+"315 366 LINE",
+"236 366 LINE",
+"236 286 LINE"
+);
+}
+);
+width = 325;
 },
 {
-name = periodcentered;
-transform = "{1, 0, 0, 1, -26, -7}";
+anchors = (
+{
+name = bottom;
+position = "{150, 0}";
+},
+{
+name = center;
+position = "{379, 349}";
+},
+{
+name = top;
+position = "{150, 667}";
+},
+{
+name = topright;
+position = "{270, 499}";
 }
 );
 layerId = "ECACF70C-BE42-4FA5-B3A0-AFDA71FB1D31";
-width = 418;
+paths = (
+{
+closed = 1;
+nodes = (
+"240 700 LINE",
+"60 700 LINE",
+"60 0 LINE",
+"240 0 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"453 278 LINE",
+"453 416 LINE",
+"309 416 LINE",
+"309 278 LINE"
+);
+}
+);
+width = 478;
 }
 );
 leftKerningGroup = h;
@@ -32182,7 +32239,7 @@ unicode = 00F7;
 },
 {
 glyphname = equal;
-lastChange = "2016-08-05 09:29:49 +0000";
+lastChange = "2017-07-04 12:24:02 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -32190,19 +32247,19 @@ paths = (
 {
 closed = 1;
 nodes = (
-"512 186 LINE",
-"512 256 LINE",
-"127 256 LINE",
-"127 186 LINE"
+"512 341 LINE",
+"512 410 LINE",
+"127 410 LINE",
+"127 341 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
-"512 341 LINE",
-"512 410 LINE",
-"127 410 LINE",
-"127 341 LINE"
+"512 186 LINE",
+"512 256 LINE",
+"127 256 LINE",
+"127 186 LINE"
 );
 }
 );
@@ -32585,24 +32642,11 @@ unicode = 00B1;
 },
 {
 glyphname = approxequal;
-lastChange = "2016-08-05 09:29:49 +0000";
+lastChange = "2017-07-04 12:24:16 +0000";
 layers = (
 {
 layerId = UUID0;
 paths = (
-{
-closed = 1;
-nodes = (
-"237 290 OFFCURVE",
-"374 56 OFFCURVE",
-"511 183 CURVE",
-"511 244 LINE",
-"374 117 OFFCURVE",
-"237 350 OFFCURVE",
-"100 223 CURVE",
-"100 163 LINE"
-);
-},
 {
 closed = 1;
 nodes = (
@@ -32614,6 +32658,19 @@ nodes = (
 "237 507 OFFCURVE",
 "100 380 CURVE",
 "100 320 LINE"
+);
+},
+{
+closed = 1;
+nodes = (
+"237 290 OFFCURVE",
+"374 56 OFFCURVE",
+"511 183 CURVE",
+"511 244 LINE",
+"374 117 OFFCURVE",
+"237 350 OFFCURVE",
+"100 223 CURVE",
+"100 163 LINE"
 );
 }
 );
@@ -33362,7 +33419,7 @@ unicode = 2202;
 },
 {
 glyphname = percent;
-lastChange = "2016-08-31 18:56:41 +0000";
+lastChange = "2017-07-04 12:24:47 +0000";
 layers = (
 {
 components = (
@@ -33376,7 +33433,7 @@ transform = "{1, 0, 0, 1, 377, 0}";
 {
 alignment = -1;
 name = fraction;
-transform = "{1, 0, 0, 1, 200, 0}";
+transform = "{1, 0, 0, 1, 121, 0}";
 }
 );
 layerId = UUID0;
@@ -39098,8 +39155,8 @@ value = 1065;
 );
 interpolationWeight = 550;
 instanceInterpolations = {
-UUID0 = 0.7;
 "ECACF70C-BE42-4FA5-B3A0-AFDA71FB1D31" = 0.3;
+UUID0 = 0.7;
 };
 name = Medium;
 weightClass = Medium;
@@ -39141,8 +39198,8 @@ value = 1065;
 );
 interpolationWeight = 750;
 instanceInterpolations = {
-UUID0 = 0.3;
 "ECACF70C-BE42-4FA5-B3A0-AFDA71FB1D31" = 0.7;
+UUID0 = 0.3;
 };
 isBold = 1;
 name = Bold;
@@ -39300,6 +39357,10 @@ x = {
 };
 y = {
 "@MMK_R_c" = -35;
+};
+l = {
+"@MMK_R_h" = 0;
+ldot = 0;
 };
 };
 "ECACF70C-BE42-4FA5-B3A0-AFDA71FB1D31" = {
@@ -39466,5 +39527,5 @@ tH = "65";
 };
 };
 versionMajor = 2;
-versionMinor = 2;
+versionMinor = 3;
 }
