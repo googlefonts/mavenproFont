@@ -1,5 +1,8 @@
 {
 .appVersion = "1037";
+DisplayStrings = (
+"/perthousand %"
+);
 copyright = "Copyright 2011 The Maven Pro Project Authors (http://www.vissol.co.uk/mavenpro/), with Reserved Font Name \"Maven Pro\".";
 customParameters = (
 {
@@ -33419,7 +33422,7 @@ unicode = 2202;
 },
 {
 glyphname = percent;
-lastChange = "2017-07-04 12:24:47 +0000";
+lastChange = "2017-07-04 12:38:26 +0000";
 layers = (
 {
 components = (
@@ -33447,23 +33450,23 @@ name = zero.numr;
 {
 alignment = -1;
 name = zero.dnom;
-transform = "{1, 0, 0, 1, 550, 0}";
+transform = "{1, 0, 0, 1, 470, 0}";
 },
 {
 alignment = -1;
 name = fraction;
-transform = "{1, 0, 0, 1, 260, 0}";
+transform = "{1, 0, 0, 1, 225, 0}";
 }
 );
 layerId = "ECACF70C-BE42-4FA5-B3A0-AFDA71FB1D31";
-width = 930;
+width = 850;
 }
 );
 unicode = 0025;
 },
 {
 glyphname = perthousand;
-lastChange = "2016-08-31 15:37:06 +0000";
+lastChange = "2017-07-04 12:38:22 +0000";
 layers = (
 {
 components = (
@@ -33473,20 +33476,20 @@ name = zero.numr;
 {
 alignment = -1;
 name = zero.dnom;
-transform = "{1, 0, 0, 1, 427, 0}";
+transform = "{1, 0, 0, 1, 377, 0}";
 },
 {
 alignment = -1;
 name = zero.dnom;
-transform = "{1, 0, 0, 1, 763, 0}";
+transform = "{1, 0, 0, 1, 713, 0}";
 },
 {
 name = fraction;
-transform = "{1, 0, 0, 1, 213, 0}";
+transform = "{1, 0, 0, 1, 121, 0}";
 }
 );
 layerId = UUID0;
-width = 1138;
+width = 1088;
 },
 {
 components = (
@@ -33496,21 +33499,21 @@ name = zero.numr;
 {
 alignment = -1;
 name = zero.dnom;
-transform = "{1, 0, 0, 1, 510, 0}";
+transform = "{1, 0, 0, 1, 470, 0}";
 },
 {
 alignment = -1;
 name = zero.dnom;
-transform = "{1, 0, 0, 1, 900, 0}";
+transform = "{1, 0, 0, 1, 860, 0}";
 },
 {
 alignment = -1;
 name = fraction;
-transform = "{1, 0, 0, 1, 236, 0}";
+transform = "{1, 0, 0, 1, 225, 0}";
 }
 );
 layerId = "ECACF70C-BE42-4FA5-B3A0-AFDA71FB1D31";
-width = 1280;
+width = 1240;
 }
 );
 unicode = 2030;
@@ -39345,6 +39348,10 @@ P = {
 "@MMK_R_A" = -75;
 "@MMK_R_comma" = -100;
 };
+l = {
+"@MMK_R_h" = 0;
+ldot = 0;
+};
 v = {
 "@MMK_R_a" = -20;
 "@MMK_R_c" = -35;
@@ -39357,10 +39364,6 @@ x = {
 };
 y = {
 "@MMK_R_c" = -35;
-};
-l = {
-"@MMK_R_h" = 0;
-ldot = 0;
 };
 };
 "ECACF70C-BE42-4FA5-B3A0-AFDA71FB1D31" = {
