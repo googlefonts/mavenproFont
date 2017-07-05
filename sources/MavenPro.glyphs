@@ -1,7 +1,7 @@
 {
 .appVersion = "1037";
 DisplayStrings = (
-"/perthousand %"
+"\U00BD/onethird \U00BC\U00BE/oneeighth/threeeighths/fiveeighths/seveneighths"
 );
 copyright = "Copyright 2011 The Maven Pro Project Authors (http://www.vissol.co.uk/mavenpro/), with Reserved Font Name \"Maven Pro\".";
 customParameters = (
@@ -137,6 +137,7 @@ value = 1065;
 );
 descender = -200;
 id = UUID0;
+visible = 1;
 weightValue = 400;
 xHeight = 499;
 },
@@ -191,6 +192,7 @@ position = "{392, 638}";
 }
 );
 id = "ECACF70C-BE42-4FA5-B3A0-AFDA71FB1D31";
+visible = 1;
 weight = Bold;
 weightValue = 900;
 xHeight = 499;
@@ -23832,7 +23834,7 @@ unicode = 0039;
 },
 {
 glyphname = zero.inferior;
-lastChange = "2016-08-31 15:16:16 +0000";
+lastChange = "2017-07-04 14:13:19 +0000";
 layers = (
 {
 background = {
@@ -23880,7 +23882,7 @@ transform = "{1, 0, 0, 1, 0, -151}";
 }
 );
 layerId = UUID0;
-width = 377;
+width = 379;
 },
 {
 background = {
@@ -24891,7 +24893,7 @@ unicode = 2089;
 },
 {
 glyphname = zero.superior;
-lastChange = "2016-08-31 15:19:09 +0000";
+lastChange = "2017-07-04 14:13:19 +0000";
 layers = (
 {
 background = {
@@ -24939,7 +24941,7 @@ transform = "{1, 0, 0, 1, 0, 462}";
 }
 );
 layerId = UUID0;
-width = 377;
+width = 379;
 },
 {
 background = {
@@ -25975,7 +25977,7 @@ width = 675;
 },
 {
 glyphname = zero.dnom;
-lastChange = "2016-08-31 20:50:27 +0000";
+lastChange = "2017-07-04 14:12:15 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -25983,39 +25985,39 @@ paths = (
 {
 closed = 1;
 nodes = (
-"281 -5 OFFCURVE",
-"329 57 OFFCURVE",
-"329 179 CURVE SMOOTH",
-"329 301 OFFCURVE",
-"281 363 OFFCURVE",
-"188 363 CURVE SMOOTH",
-"94 363 OFFCURVE",
-"46 301 OFFCURVE",
-"46 179 CURVE SMOOTH",
-"46 57 OFFCURVE",
-"94 -5 OFFCURVE",
-"188 -5 CURVE SMOOTH"
+"283 -5 OFFCURVE",
+"331 57 OFFCURVE",
+"331 179 CURVE SMOOTH",
+"331 301 OFFCURVE",
+"283 363 OFFCURVE",
+"190 363 CURVE SMOOTH",
+"96 363 OFFCURVE",
+"48 301 OFFCURVE",
+"48 179 CURVE SMOOTH",
+"48 57 OFFCURVE",
+"96 -5 OFFCURVE",
+"190 -5 CURVE SMOOTH"
 );
 },
 {
 closed = 1;
 nodes = (
-"162 45 OFFCURVE",
-"107 62 OFFCURVE",
-"107 179 CURVE SMOOTH",
-"107 296 OFFCURVE",
-"162 313 OFFCURVE",
-"188 313 CURVE SMOOTH",
-"213 313 OFFCURVE",
-"268 296 OFFCURVE",
-"268 179 CURVE SMOOTH",
-"268 62 OFFCURVE",
-"213 45 OFFCURVE",
-"188 45 CURVE SMOOTH"
+"164 45 OFFCURVE",
+"109 62 OFFCURVE",
+"109 179 CURVE SMOOTH",
+"109 296 OFFCURVE",
+"164 313 OFFCURVE",
+"190 313 CURVE SMOOTH",
+"215 313 OFFCURVE",
+"270 296 OFFCURVE",
+"270 179 CURVE SMOOTH",
+"270 62 OFFCURVE",
+"215 45 OFFCURVE",
+"190 45 CURVE SMOOTH"
 );
 }
 );
-width = 377;
+width = 379;
 },
 {
 layerId = "ECACF70C-BE42-4FA5-B3A0-AFDA71FB1D31";
@@ -26865,7 +26867,7 @@ rightKerningGroup = nine.denominator;
 },
 {
 glyphname = zero.numr;
-lastChange = "2016-08-31 15:20:43 +0000";
+lastChange = "2017-07-04 14:13:09 +0000";
 layers = (
 {
 background = {
@@ -26913,7 +26915,7 @@ transform = "{1, 0, 0, 1, 0, 314}";
 }
 );
 layerId = UUID0;
-width = 377;
+width = 379;
 },
 {
 background = {
@@ -27611,7 +27613,7 @@ rightKerningGroup = nine.numerator;
 },
 {
 glyphname = fraction;
-lastChange = "2016-08-31 21:05:08 +0000";
+lastChange = "2017-07-04 14:19:44 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -27619,14 +27621,14 @@ paths = (
 {
 closed = 1;
 nodes = (
-"67 -22 LINE",
-"504 685 LINE",
-"437 685 LINE",
-"0 -22 LINE"
+"51 -22 LINE",
+"458 685 LINE",
+"390 685 LINE",
+"-17 -22 LINE"
 );
 }
 );
-width = 504;
+width = 444;
 },
 {
 layerId = "ECACF70C-BE42-4FA5-B3A0-AFDA71FB1D31";
@@ -27634,21 +27636,21 @@ paths = (
 {
 closed = 1;
 nodes = (
-"53 -22 LINE",
-"460 685 LINE",
-"336 685 LINE",
-"-71 -22 LINE"
+"54 -22 LINE",
+"461 685 LINE",
+"337 685 LINE",
+"-70 -22 LINE"
 );
 }
 );
-width = 392;
+width = 391;
 }
 );
 unicode = 2044;
 },
 {
 glyphname = onehalf;
-lastChange = "2016-08-31 21:04:15 +0000";
+lastChange = "2017-07-05 09:20:47 +0000";
 layers = (
 {
 components = (
@@ -27658,7 +27660,7 @@ name = one.numr;
 {
 alignment = -1;
 name = fraction;
-transform = "{1, 0, 0, 1, 60, 0}";
+transform = "{1, 0, 0, 1, 80, 0}";
 },
 {
 name = two.dnom;
@@ -27691,7 +27693,7 @@ unicode = 00BD;
 },
 {
 glyphname = onethird;
-lastChange = "2016-08-31 21:04:36 +0000";
+lastChange = "2017-07-05 09:21:04 +0000";
 layers = (
 {
 components = (
@@ -27701,7 +27703,7 @@ name = one.numr;
 {
 alignment = -1;
 name = fraction;
-transform = "{1, 0, 0, 1, 120, 0}";
+transform = "{1, 0, 0, 1, 140, 0}";
 },
 {
 name = three.dnom;
@@ -27734,7 +27736,7 @@ unicode = 2153;
 },
 {
 glyphname = onequarter;
-lastChange = "2016-08-31 21:04:46 +0000";
+lastChange = "2017-07-05 09:21:09 +0000";
 layers = (
 {
 components = (
@@ -27744,7 +27746,7 @@ name = one.numr;
 {
 alignment = -1;
 name = fraction;
-transform = "{1, 0, 0, 1, 67, 0}";
+transform = "{1, 0, 0, 1, 87, 0}";
 },
 {
 name = four.dnom;
@@ -27777,7 +27779,7 @@ unicode = 00BC;
 },
 {
 glyphname = threequarters;
-lastChange = "2016-08-31 21:04:49 +0000";
+lastChange = "2017-07-05 09:21:12 +0000";
 layers = (
 {
 components = (
@@ -27787,7 +27789,7 @@ name = three.numr;
 {
 alignment = -1;
 name = fraction;
-transform = "{1, 0, 0, 1, 140, 0}";
+transform = "{1, 0, 0, 1, 160, 0}";
 },
 {
 name = four.dnom;
@@ -27820,7 +27822,7 @@ unicode = 00BE;
 },
 {
 glyphname = oneeighth;
-lastChange = "2016-08-31 21:04:51 +0000";
+lastChange = "2017-07-05 09:21:24 +0000";
 layers = (
 {
 components = (
@@ -27830,7 +27832,7 @@ name = one.numr;
 {
 alignment = -1;
 name = fraction;
-transform = "{1, 0, 0, 1, 70, 0}";
+transform = "{1, 0, 0, 1, 90, 0}";
 },
 {
 name = eight.dnom;
@@ -27863,7 +27865,7 @@ unicode = 215B;
 },
 {
 glyphname = threeeighths;
-lastChange = "2016-08-31 21:04:54 +0000";
+lastChange = "2017-07-05 09:21:28 +0000";
 layers = (
 {
 components = (
@@ -27873,7 +27875,7 @@ name = three.numr;
 {
 alignment = -1;
 name = fraction;
-transform = "{1, 0, 0, 1, 140, 0}";
+transform = "{1, 0, 0, 1, 160, 0}";
 },
 {
 name = eight.dnom;
@@ -27906,7 +27908,7 @@ unicode = 215C;
 },
 {
 glyphname = fiveeighths;
-lastChange = "2016-08-31 21:04:56 +0000";
+lastChange = "2017-07-05 09:21:31 +0000";
 layers = (
 {
 components = (
@@ -27916,7 +27918,7 @@ name = five.numr;
 {
 alignment = -1;
 name = fraction;
-transform = "{1, 0, 0, 1, 150, 0}";
+transform = "{1, 0, 0, 1, 170, 0}";
 },
 {
 name = eight.dnom;
@@ -27949,7 +27951,7 @@ unicode = 215D;
 },
 {
 glyphname = seveneighths;
-lastChange = "2016-08-31 21:04:58 +0000";
+lastChange = "2017-07-05 09:21:33 +0000";
 layers = (
 {
 components = (
@@ -27959,7 +27961,7 @@ name = seven.numr;
 {
 alignment = -1;
 name = fraction;
-transform = "{1, 0, 0, 1, 110, 0}";
+transform = "{1, 0, 0, 1, 130, 0}";
 },
 {
 name = eight.dnom;
@@ -33422,7 +33424,7 @@ unicode = 2202;
 },
 {
 glyphname = percent;
-lastChange = "2017-07-04 12:38:26 +0000";
+lastChange = "2017-07-04 14:22:41 +0000";
 layers = (
 {
 components = (
@@ -33430,17 +33432,18 @@ components = (
 name = zero.numr;
 },
 {
+alignment = -1;
 name = zero.dnom;
-transform = "{1, 0, 0, 1, 377, 0}";
+transform = "{1, 0, 0, 1, 382, 0}";
 },
 {
 alignment = -1;
 name = fraction;
-transform = "{1, 0, 0, 1, 121, 0}";
+transform = "{1, 0, 0, 1, 156, 0}";
 }
 );
 layerId = UUID0;
-width = 752;
+width = 761;
 },
 {
 components = (
@@ -33450,23 +33453,23 @@ name = zero.numr;
 {
 alignment = -1;
 name = zero.dnom;
-transform = "{1, 0, 0, 1, 470, 0}";
+transform = "{1, 0, 0, 1, 468, 0}";
 },
 {
 alignment = -1;
 name = fraction;
-transform = "{1, 0, 0, 1, 225, 0}";
+transform = "{1, 0, 0, 1, 228, 0}";
 }
 );
 layerId = "ECACF70C-BE42-4FA5-B3A0-AFDA71FB1D31";
-width = 850;
+width = 848;
 }
 );
 unicode = 0025;
 },
 {
 glyphname = perthousand;
-lastChange = "2017-07-04 12:38:22 +0000";
+lastChange = "2017-07-04 14:22:58 +0000";
 layers = (
 {
 components = (
@@ -33476,20 +33479,20 @@ name = zero.numr;
 {
 alignment = -1;
 name = zero.dnom;
-transform = "{1, 0, 0, 1, 377, 0}";
+transform = "{1, 0, 0, 1, 382, 0}";
 },
 {
 alignment = -1;
 name = zero.dnom;
-transform = "{1, 0, 0, 1, 713, 0}";
+transform = "{1, 0, 0, 1, 718, 0}";
 },
 {
 name = fraction;
-transform = "{1, 0, 0, 1, 121, 0}";
+transform = "{1, 0, 0, 1, 156, 0}";
 }
 );
 layerId = UUID0;
-width = 1088;
+width = 1097;
 },
 {
 components = (
@@ -33499,21 +33502,21 @@ name = zero.numr;
 {
 alignment = -1;
 name = zero.dnom;
-transform = "{1, 0, 0, 1, 470, 0}";
+transform = "{1, 0, 0, 1, 468, 0}";
 },
 {
 alignment = -1;
 name = zero.dnom;
-transform = "{1, 0, 0, 1, 860, 0}";
+transform = "{1, 0, 0, 1, 858, 0}";
 },
 {
 alignment = -1;
 name = fraction;
-transform = "{1, 0, 0, 1, 225, 0}";
+transform = "{1, 0, 0, 1, 228, 0}";
 }
 );
 layerId = "ECACF70C-BE42-4FA5-B3A0-AFDA71FB1D31";
-width = 1240;
+width = 1238;
 }
 );
 unicode = 2030;
