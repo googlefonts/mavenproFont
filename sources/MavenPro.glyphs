@@ -1,8 +1,5 @@
 {
-.appVersion = "1037";
-DisplayStrings = (
-"\U00BD/onethird \U00BC\U00BE/oneeighth/threeeighths/fiveeighths/seveneighths"
-);
+.appVersion = "1126";
 copyright = "Copyright 2011 The Maven Pro Project Authors (http://www.vissol.co.uk/mavenpro/), with Reserved Font Name \"Maven Pro\".";
 customParameters = (
 {
@@ -25,6 +22,19 @@ value = (
 {
 name = "Use Typo Metrics";
 value = 1;
+},
+{
+name = Axes;
+value = (
+{
+Name = Weight;
+Tag = wght;
+}
+);
+},
+{
+name = "Variation Font Origin";
+value = UUID0;
 }
 );
 date = "2016-08-05 10:04:49 +0000";
@@ -133,6 +143,15 @@ value = 233;
 {
 name = winAscent;
 value = 1065;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 400;
+}
+);
 }
 );
 descender = -200;
@@ -180,6 +199,15 @@ value = 233;
 {
 name = winAscent;
 value = 1065;
+},
+{
+name = "Axis Location";
+value = (
+{
+Axis = Weight;
+Location = 900;
+}
+);
 }
 );
 descender = -200;
@@ -12817,7 +12845,7 @@ unicode = 00F0;
 },
 {
 glyphname = dcaron;
-lastChange = "2016-08-18 16:14:23 +0000";
+lastChange = "2018-04-04 13:59:26 +0000";
 layers = (
 {
 components = (
@@ -12826,11 +12854,11 @@ name = d;
 },
 {
 name = caronalt;
-transform = "{1, 0, 0, 1, 487, 30}";
+transform = "{1, 0, 0, 1, 569, 0}";
 }
 );
 layerId = UUID0;
-width = 569;
+width = 824;
 },
 {
 components = (
@@ -12839,11 +12867,11 @@ name = d;
 },
 {
 name = caronalt;
-transform = "{1, 0, 0, 1, 480, -60}";
+transform = "{1, 0, 0, 1, 626, 0}";
 }
 );
 layerId = "ECACF70C-BE42-4FA5-B3A0-AFDA71FB1D31";
-width = 802;
+width = 993;
 }
 );
 leftKerningGroup = c;
@@ -20110,7 +20138,7 @@ unicode = 0167;
 },
 {
 glyphname = tcaron;
-lastChange = "2016-08-31 20:29:24 +0000";
+lastChange = "2018-04-04 13:59:26 +0000";
 layers = (
 {
 components = (
@@ -20119,11 +20147,11 @@ name = t;
 },
 {
 name = caronalt;
-transform = "{1, 0, 0, 1, 202, 64}";
+transform = "{1, 0, 0, 1, 363, 0}";
 }
 );
 layerId = UUID0;
-width = 378;
+width = 618;
 },
 {
 components = (
@@ -20132,11 +20160,11 @@ name = t;
 },
 {
 name = caronalt;
-transform = "{1, 0, 0, 1, 223, 0}";
+transform = "{1, 0, 0, 1, 434, 0}";
 }
 );
 layerId = "ECACF70C-BE42-4FA5-B3A0-AFDA71FB1D31";
-width = 434;
+width = 801;
 }
 );
 leftKerningGroup = t;
@@ -31385,13 +31413,13 @@ unicode = 20BA;
 },
 {
 glyphname = manat;
-lastChange = "2016-08-31 11:04:36 +0000";
+lastChange = "2018-04-04 13:59:26 +0000";
 layers = (
 {
 components = (
 {
 name = U;
-transform = "{-1, 0, 0, -1, 692, 657}";
+transform = "{-1, 0, 0, -1, 692, 667}";
 },
 {
 name = bar;
@@ -31405,7 +31433,7 @@ width = 692;
 components = (
 {
 name = U;
-transform = "{-1, 0, 0, -1, 740, 668}";
+transform = "{-1, 0, 0, -1, 740, 667}";
 },
 {
 name = bar;
@@ -32003,7 +32031,7 @@ unicode = 2219;
 },
 {
 glyphname = divisionslash;
-lastChange = "2016-09-07 23:03:39 +0000";
+lastChange = "2018-04-04 13:59:26 +0000";
 layers = (
 {
 components = (
@@ -32012,7 +32040,7 @@ name = fraction;
 }
 );
 layerId = UUID0;
-width = 504;
+width = 444;
 },
 {
 components = (
@@ -32021,7 +32049,7 @@ name = fraction;
 }
 );
 layerId = "ECACF70C-BE42-4FA5-B3A0-AFDA71FB1D31";
-width = 392;
+width = 391;
 }
 );
 unicode = 2215;
