@@ -1,5 +1,8 @@
 {
-.appVersion = "1141";
+.appVersion = "1271";
+DisplayStrings = (
+"ll/Uhorn ll "
+);
 copyright = "Copyright 2011 The Maven Pro Project Authors (http://www.vissol.co.uk/mavenpro/), with Reserved Font Name \"Maven Pro\".";
 customParameters = (
 {
@@ -8,7 +11,7 @@ value = "http://scripts.sil.org/OFL";
 },
 {
 name = trademark;
-value = "Maven Pro is a trademark of Vissol Ltd. www.vissol.co.uk ";
+value = "Maven Pro is a trademark of Vissol Ltd. www.vissol.co.uk";
 },
 {
 name = license;
@@ -139,15 +142,6 @@ value = 233;
 {
 name = winAscent;
 value = 1065;
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 400;
-}
-);
 }
 );
 descender = -200;
@@ -195,15 +189,6 @@ value = 233;
 {
 name = winAscent;
 value = 1065;
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 900;
-}
-);
 }
 );
 descender = -200;
@@ -9312,11 +9297,12 @@ unicode = 1EE6;
 {
 color = 3;
 glyphname = Uhorn;
-lastChange = "2018-06-01 15:55:57 +0000";
+lastChange = "2019-12-20 16:40:43 +0000";
 layers = (
 {
 components = (
 {
+alignment = -1;
 name = U;
 },
 {
@@ -9326,11 +9312,12 @@ transform = "{1, 0, 0, 1, 459, 50}";
 }
 );
 layerId = UUID0;
-width = 692;
+width = 722;
 },
 {
 components = (
 {
+alignment = -1;
 name = U;
 },
 {
@@ -9340,14 +9327,14 @@ transform = "{1, 0, 0, 1, 524, 150}";
 }
 );
 layerId = "ECACF70C-BE42-4FA5-B3A0-AFDA71FB1D31";
-width = 740;
+width = 807;
 }
 );
 unicode = 01AF;
 },
 {
 glyphname = Uhornacute;
-lastChange = "2018-06-01 15:55:57 +0000";
+lastChange = "2019-12-20 16:40:44 +0000";
 layers = (
 {
 components = (
@@ -9360,7 +9347,7 @@ transform = "{1, 0, 0, 1, 268, 168}";
 }
 );
 layerId = UUID0;
-width = 692;
+width = 722;
 },
 {
 components = (
@@ -9373,7 +9360,7 @@ transform = "{1, 0, 0, 1, 267, 178}";
 }
 );
 layerId = "ECACF70C-BE42-4FA5-B3A0-AFDA71FB1D31";
-width = 740;
+width = 807;
 }
 );
 leftKerningGroup = U;
@@ -9382,7 +9369,7 @@ unicode = 1EE8;
 },
 {
 glyphname = Uhorndotbelow;
-lastChange = "2018-06-01 15:55:57 +0000";
+lastChange = "2019-12-20 16:40:44 +0000";
 layers = (
 {
 components = (
@@ -9395,7 +9382,7 @@ transform = "{1, 0, 0, 1, 256, 0}";
 }
 );
 layerId = UUID0;
-width = 692;
+width = 722;
 },
 {
 components = (
@@ -9408,7 +9395,7 @@ transform = "{1, 0, 0, 1, 260, 0}";
 }
 );
 layerId = "ECACF70C-BE42-4FA5-B3A0-AFDA71FB1D31";
-width = 740;
+width = 807;
 }
 );
 leftKerningGroup = U;
@@ -9418,7 +9405,7 @@ unicode = 1EF0;
 {
 color = 3;
 glyphname = Uhorngrave;
-lastChange = "2018-06-01 15:55:57 +0000";
+lastChange = "2019-12-20 16:40:44 +0000";
 layers = (
 {
 components = (
@@ -9431,7 +9418,7 @@ transform = "{1, 0, 0, 1, 205, 169}";
 }
 );
 layerId = UUID0;
-width = 692;
+width = 722;
 },
 {
 components = (
@@ -9444,7 +9431,7 @@ transform = "{1, 0, 0, 1, 195, 178}";
 }
 );
 layerId = "ECACF70C-BE42-4FA5-B3A0-AFDA71FB1D31";
-width = 740;
+width = 807;
 }
 );
 leftKerningGroup = U;
@@ -9453,7 +9440,7 @@ unicode = 1EEA;
 },
 {
 glyphname = Uhornhookabove;
-lastChange = "2018-06-01 15:55:57 +0000";
+lastChange = "2019-12-20 16:40:44 +0000";
 layers = (
 {
 components = (
@@ -9466,7 +9453,7 @@ transform = "{1, 0, 0, 1, 228, 0}";
 }
 );
 layerId = UUID0;
-width = 692;
+width = 722;
 },
 {
 components = (
@@ -9479,7 +9466,7 @@ transform = "{1, 0, 0, 1, 227, 181}";
 }
 );
 layerId = "ECACF70C-BE42-4FA5-B3A0-AFDA71FB1D31";
-width = 740;
+width = 807;
 }
 );
 leftKerningGroup = U;
@@ -9488,7 +9475,7 @@ unicode = 1EEC;
 },
 {
 glyphname = Uhorntilde;
-lastChange = "2018-06-01 15:55:57 +0000";
+lastChange = "2019-12-20 16:40:44 +0000";
 layers = (
 {
 components = (
@@ -9501,7 +9488,7 @@ transform = "{1, 0, 0, 1, 100, 0}";
 }
 );
 layerId = UUID0;
-width = 692;
+width = 722;
 },
 {
 components = (
@@ -9514,7 +9501,7 @@ transform = "{1, 0, 0, 1, 113, 178}";
 }
 );
 layerId = "ECACF70C-BE42-4FA5-B3A0-AFDA71FB1D31";
-width = 740;
+width = 807;
 }
 );
 leftKerningGroup = U;
@@ -12841,7 +12828,7 @@ unicode = 00F0;
 },
 {
 glyphname = dcaron;
-lastChange = "2018-06-01 15:55:57 +0000";
+lastChange = "2019-12-20 16:37:40 +0000";
 layers = (
 {
 components = (
@@ -12849,12 +12836,13 @@ components = (
 name = d;
 },
 {
+alignment = -1;
 name = caronalt;
-transform = "{1, 0, 0, 1, 569, 0}";
+transform = "{1, 0, 0, 1, 487, 30}";
 }
 );
 layerId = UUID0;
-width = 824;
+width = 710;
 },
 {
 components = (
@@ -12862,12 +12850,13 @@ components = (
 name = d;
 },
 {
+alignment = -1;
 name = caronalt;
-transform = "{1, 0, 0, 1, 626, 0}";
+transform = "{1, 0, 0, 1, 480, -60}";
 }
 );
 layerId = "ECACF70C-BE42-4FA5-B3A0-AFDA71FB1D31";
-width = 993;
+width = 795;
 }
 );
 leftKerningGroup = c;
@@ -20134,7 +20123,7 @@ unicode = 0167;
 },
 {
 glyphname = tcaron;
-lastChange = "2018-06-01 15:55:57 +0000";
+lastChange = "2019-12-20 16:36:21 +0000";
 layers = (
 {
 components = (
@@ -20142,12 +20131,13 @@ components = (
 name = t;
 },
 {
+alignment = -1;
 name = caronalt;
-transform = "{1, 0, 0, 1, 363, 0}";
+transform = "{1, 0, 0, 1, 202, 64}";
 }
 );
 layerId = UUID0;
-width = 618;
+width = 435;
 },
 {
 components = (
@@ -20155,12 +20145,13 @@ components = (
 name = t;
 },
 {
+alignment = -1;
 name = caronalt;
-transform = "{1, 0, 0, 1, 434, 0}";
+transform = "{1, 0, 0, 1, 223, 0}";
 }
 );
 layerId = "ECACF70C-BE42-4FA5-B3A0-AFDA71FB1D31";
-width = 801;
+width = 543;
 }
 );
 leftKerningGroup = t;
