@@ -39174,6 +39174,40 @@ name = Medium;
 weightClass = Medium;
 },
 {
+customParameters = (
+{
+name = typoDescender;
+value = -210;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 965;
+},
+{
+name = typoAscender;
+value = 965;
+},
+{
+name = hheaDescender;
+value = -210;
+},
+{
+name = winDescent;
+value = 233;
+},
+{
+name = winAscent;
+value = 1065;
+}
+);
 interpolationWeight = 650;
 instanceInterpolations = {
 "ECACF70C-BE42-4FA5-B3A0-AFDA71FB1D31" = 0.5;
@@ -39266,7 +39300,6 @@ instanceInterpolations = {
 "ECACF70C-BE42-4FA5-B3A0-AFDA71FB1D31" = 0.85;
 UUID0 = 0.15;
 };
-isBold = 1;
 name = ExtraBold;
 weightClass = ExtraBold;
 },
