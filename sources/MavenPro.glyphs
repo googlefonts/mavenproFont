@@ -1,5 +1,5 @@
 {
-.appVersion = "1141";
+.appVersion = "1349";
 copyright = "Copyright 2011 The Maven Pro Project Authors (http://www.vissol.co.uk/mavenpro/), with Reserved Font Name \"Maven Pro\".";
 customParameters = (
 {
@@ -8,7 +8,7 @@ value = "http://scripts.sil.org/OFL";
 },
 {
 name = trademark;
-value = "Maven Pro is a trademark of Vissol Ltd. www.vissol.co.uk ";
+value = "Maven Pro is a trademark of Vissol Ltd. www.vissol.co.uk";
 },
 {
 name = license;
@@ -139,15 +139,6 @@ value = 233;
 {
 name = winAscent;
 value = 1065;
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 400;
-}
-);
 }
 );
 descender = -200;
@@ -195,15 +186,6 @@ value = 233;
 {
 name = winAscent;
 value = 1065;
-},
-{
-name = "Axis Location";
-value = (
-{
-Axis = Weight;
-Location = 900;
-}
-);
 }
 );
 descender = -200;
@@ -39226,6 +39208,49 @@ name = winAscent;
 value = 1065;
 }
 );
+interpolationWeight = 650;
+instanceInterpolations = {
+"ECACF70C-BE42-4FA5-B3A0-AFDA71FB1D31" = 0.5;
+UUID0 = 0.5;
+};
+name = SemiBold;
+weightClass = SemiBold;
+},
+{
+customParameters = (
+{
+name = typoDescender;
+value = -210;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 965;
+},
+{
+name = typoAscender;
+value = 965;
+},
+{
+name = hheaDescender;
+value = -210;
+},
+{
+name = winDescent;
+value = 233;
+},
+{
+name = winAscent;
+value = 1065;
+}
+);
 interpolationWeight = 750;
 instanceInterpolations = {
 "ECACF70C-BE42-4FA5-B3A0-AFDA71FB1D31" = 0.7;
@@ -39234,6 +39259,49 @@ UUID0 = 0.3;
 isBold = 1;
 name = Bold;
 weightClass = Bold;
+},
+{
+customParameters = (
+{
+name = typoDescender;
+value = -210;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 965;
+},
+{
+name = typoAscender;
+value = 965;
+},
+{
+name = hheaDescender;
+value = -210;
+},
+{
+name = winDescent;
+value = 233;
+},
+{
+name = winAscent;
+value = 1065;
+}
+);
+interpolationWeight = 825;
+instanceInterpolations = {
+"ECACF70C-BE42-4FA5-B3A0-AFDA71FB1D31" = 0.85;
+UUID0 = 0.15;
+};
+name = ExtraBold;
+weightClass = ExtraBold;
 },
 {
 customParameters = (
