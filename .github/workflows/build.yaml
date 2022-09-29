@@ -16,11 +16,8 @@ jobs:
         sudo snap install yq
     - name: Build font
       run: make build
-    - name: Check with fontbakery
-      run: make test
-      continue-on-error: true
     - name: Regression Test
-      uses: m4rc1e/font-browser-tests-action@v0.1.1
+      uses: m4rc1e/font-browser-tests-action@v0.1.2
       with:
         paths: ./fonts/variable
         fonts_before: 'google-fonts'
