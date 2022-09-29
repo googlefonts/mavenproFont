@@ -3,7 +3,7 @@ name: Build font and specimen
 on: [push]
 
 jobs:
-  build:
+  build-fonts:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
@@ -23,12 +23,11 @@ jobs:
   
   screenshot:
     needs:
-      - build
+      - build-fonts
     strategy:
       matrix:
-        python-version: [3.9]
-        os: [ubuntu-latest]
-    runs-on: $ {{ matrix.os }}
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/download-artifact@v3
         with:
