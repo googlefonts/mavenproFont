@@ -16,13 +16,24 @@ jobs:
         sudo snap install yq
     - name: Build font
       run: make build
+    - uses: actions/upload-artifact@v3
+      with:
+        name: built-fonts
+        path: 'fonts'
+  
   screenshot:
+    needs:
+      - build
     runs-on: $ {{ matrix.os }}
     strategy:
       matrix:
         python-version: [3.9]
         os: [ubuntu-latest, windows-latest, macos-latest]
     steps:
+      - uses: actions/download-artifact@v3
+        with:
+          name: built-fonts
+          path: 'fonts'
       - uses: actions/checkout@v2
         with:
           submodules: recursive
