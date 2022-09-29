@@ -16,8 +16,22 @@ jobs:
         sudo snap install yq
     - name: Build font
       run: make build
-    - name: Regression Test
-      uses: m4rc1e/font-browser-tests-action@v0.1.7
-      with:
-        paths: ./fonts/variable
-        fonts_before: 'google-fonts'
+  screenshot:
+    runs-on: $ {{ matrix.os }}
+    stratergy:
+      matrix:
+        python-version: [3.9]
+        os: [ubuntu-latest, windows-latest, macos-latest]
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          submodules: recursive
+          fetch-depth: 0
+      - uses: m4rc1e/font-browser-tests-action@v0.1.7
+        with:
+          paths: ./fonts/variable
+
+#      uses: m4rc1e/font-browser-tests-action@v0.1.7
+#      with:
+#        paths: ./fonts/variable
+#        fonts_before: 'google-fonts'
