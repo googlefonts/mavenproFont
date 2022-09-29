@@ -24,11 +24,11 @@ jobs:
   screenshot:
     needs:
       - build
-    runs-on: $ {{ matrix.os }}
     strategy:
       matrix:
         python-version: [3.9]
-        os: [ubuntu-latest, windows-latest, macos-latest]
+        os: [ubuntu-latest]
+    runs-on: $ {{ matrix.os }}
     steps:
       - uses: actions/download-artifact@v3
         with:
