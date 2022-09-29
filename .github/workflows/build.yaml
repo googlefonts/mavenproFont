@@ -16,5 +16,3 @@ jobs:
       with:
         paths: ./fonts/variable
         fonts_before: 'google-fonts'
-    - name: Setup tmate session
-      uses: mxschmitt/action-tmate@v3
