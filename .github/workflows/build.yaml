@@ -12,7 +12,7 @@ jobs:
       with:
         python-version: 3.8
     - name: Regression Test
-      uses: m4rc1e/font-browser-tests-action@v0.1.6
+      uses: m4rc1e/font-browser-tests-action@v0.1.7
       with:
         paths: ./fonts/variable
         fonts_before: 'google-fonts'
