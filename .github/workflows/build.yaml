@@ -26,7 +26,7 @@ jobs:
       - build-fonts
     strategy:
       matrix:
-        os: [ubuntu-latest, windows-latest]
+        os: [ubuntu-latest, macos-latest]
     runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/download-artifact@v3
