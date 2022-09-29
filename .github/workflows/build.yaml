@@ -18,7 +18,7 @@ jobs:
       run: make build
   screenshot:
     runs-on: $ {{ matrix.os }}
-    stratergy:
+    strategy:
       matrix:
         python-version: [3.9]
         os: [ubuntu-latest, windows-latest, macos-latest]
