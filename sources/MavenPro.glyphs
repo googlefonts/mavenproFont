@@ -1,7 +1,16 @@
 {
-.appVersion = "1349";
+.appVersion = "3108";
 copyright = "Copyright 2011 The Maven Pro Project Authors (http://www.vissol.co.uk/mavenpro/), with Reserved Font Name \"Maven Pro\".";
 customParameters = (
+{
+name = fsType;
+value = (
+);
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+},
 {
 name = licenseURL;
 value = "http://scripts.sil.org/OFL";
@@ -13,15 +22,6 @@ value = "Maven Pro is a trademark of Vissol Ltd. www.vissol.co.uk";
 {
 name = license;
 value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
-},
-{
-name = fsType;
-value = (
-);
-},
-{
-name = "Use Typo Metrics";
-value = 1;
 },
 {
 name = Axes;
@@ -100,7 +100,7 @@ fontMaster = (
 {
 alignmentZones = (
 "{800, 16}",
-"{668, 8}",
+"{667, 9}",
 "{499, 10}",
 "{0, -8}",
 "{-200, -16}"
@@ -149,7 +149,7 @@ xHeight = 499;
 },
 {
 alignmentZones = (
-"{668, 8}",
+"{667, 9}",
 "{0, -8}"
 );
 ascender = 800;
@@ -21448,7 +21448,7 @@ unicode = 1E79;
 },
 {
 glyphname = v;
-lastChange = "2016-09-02 15:18:02 +0000";
+lastChange = "2022-09-29 12:31:24 +0000";
 layers = (
 {
 layerId = UUID0;
@@ -24309,7 +24309,7 @@ unicode = 2084;
 },
 {
 glyphname = five.inferior;
-lastChange = "2016-08-31 15:17:13 +0000";
+lastChange = "2022-09-29 12:30:55 +0000";
 layers = (
 {
 background = {
@@ -24355,7 +24355,7 @@ nodes = (
 components = (
 {
 name = five.dnom;
-transform = "{1, 0, 0, 1, 0, -150}";
+transform = "{1, 0, 0, 1, 0, 77}";
 }
 );
 layerId = UUID0;
@@ -31391,15 +31391,17 @@ unicode = 20BA;
 },
 {
 glyphname = manat;
-lastChange = "2018-06-01 15:55:57 +0000";
+lastChange = "2022-09-29 12:30:22 +0000";
 layers = (
 {
 components = (
 {
+alignment = -1;
 name = U;
 transform = "{-1, 0, 0, -1, 692, 667}";
 },
 {
+alignment = -1;
 name = bar;
 transform = "{1, 0, 0, 1, 125, 97}";
 }
@@ -31410,10 +31412,12 @@ width = 692;
 {
 components = (
 {
+alignment = -1;
 name = U;
 transform = "{-1, 0, 0, -1, 740, 667}";
 },
 {
+alignment = -1;
 name = bar;
 transform = "{1, 0, 0, 1, 111, 102}";
 }
@@ -35316,7 +35320,7 @@ unicode = 2120;
 },
 {
 glyphname = dieresiscomb;
-lastChange = "2016-08-08 18:04:55 +0000";
+lastChange = "2022-09-29 12:30:22 +0000";
 layers = (
 {
 anchors = (
@@ -35350,6 +35354,7 @@ position = "{214, 665}";
 );
 components = (
 {
+alignment = -1;
 name = dieresis;
 }
 );
@@ -35361,7 +35366,7 @@ unicode = 0308;
 },
 {
 glyphname = dotaccentcomb;
-lastChange = "2016-08-22 15:23:05 +0000";
+lastChange = "2022-09-29 12:30:22 +0000";
 layers = (
 {
 anchors = (
@@ -35395,6 +35400,7 @@ position = "{134, 665}";
 );
 components = (
 {
+alignment = -1;
 name = dotaccent;
 }
 );
@@ -35721,7 +35727,7 @@ unicode = 030A;
 },
 {
 glyphname = tildecomb;
-lastChange = "2016-09-07 23:14:58 +0000";
+lastChange = "2022-09-29 12:30:22 +0000";
 layers = (
 {
 anchors = (
@@ -35755,6 +35761,7 @@ position = "{257, 705}";
 );
 components = (
 {
+alignment = -1;
 name = tilde;
 transform = "{1, 0, 0, 1, 0, 20}";
 }
@@ -35767,7 +35774,7 @@ unicode = 0303;
 },
 {
 glyphname = macroncomb;
-lastChange = "2016-08-08 18:06:14 +0000";
+lastChange = "2022-09-29 12:30:22 +0000";
 layers = (
 {
 anchors = (
@@ -35801,6 +35808,7 @@ position = "{203, 644}";
 );
 components = (
 {
+alignment = -1;
 name = macron;
 }
 );
@@ -35905,7 +35913,7 @@ unicode = 0309;
 },
 {
 glyphname = dblgravecomb;
-lastChange = "2016-08-31 15:05:41 +0000";
+lastChange = "2022-09-29 12:30:22 +0000";
 layers = (
 {
 anchors = (
@@ -35944,10 +35952,12 @@ position = "{284, 680}";
 );
 components = (
 {
+alignment = -1;
 name = grave;
 transform = "{1, 0, 0, 1, 27, 0}";
 },
 {
+alignment = -1;
 name = grave;
 transform = "{1, 0, 0, 1, 232, 0}";
 }
@@ -35960,7 +35970,7 @@ unicode = 030F;
 },
 {
 glyphname = breveinvertedcomb;
-lastChange = "2016-08-08 18:07:47 +0000";
+lastChange = "2022-09-29 12:30:22 +0000";
 layers = (
 {
 anchors = (
@@ -35975,6 +35985,7 @@ position = "{216, 649}";
 );
 components = (
 {
+alignment = -1;
 name = breve;
 transform = "{1, 0, 0, -1, 0, 1194}";
 }
@@ -35995,6 +36006,7 @@ position = "{221, 652}";
 );
 components = (
 {
+alignment = -1;
 name = breve;
 transform = "{1, 0, 0, -1, 0, 1197}";
 }
@@ -36133,7 +36145,7 @@ unicode = 0323;
 },
 {
 glyphname = dieresisbelowcomb;
-lastChange = "2016-08-18 17:10:47 +0000";
+lastChange = "2022-09-29 12:30:22 +0000";
 layers = (
 {
 anchors = (
@@ -36148,6 +36160,7 @@ position = "{193, -151}";
 );
 components = (
 {
+alignment = -1;
 name = dieresis;
 transform = "{1, 0, 0, 1, 0, -685}";
 }
@@ -36168,6 +36181,7 @@ position = "{214, -150}";
 );
 components = (
 {
+alignment = -1;
 name = dieresis;
 transform = "{1, 0, 0, 1, 0, -706}";
 }
@@ -36372,7 +36386,7 @@ unicode = 0328;
 },
 {
 glyphname = brevebelowcomb;
-lastChange = "2016-08-08 18:09:35 +0000";
+lastChange = "2022-09-29 12:30:22 +0000";
 layers = (
 {
 anchors = (
@@ -36387,6 +36401,7 @@ position = "{216, -140}";
 );
 components = (
 {
+alignment = -1;
 name = breve;
 transform = "{1, 0, 0, 1, 0, -685}";
 }
@@ -36407,6 +36422,7 @@ position = "{221, -140}";
 );
 components = (
 {
+alignment = -1;
 name = breve;
 transform = "{1, 0, 0, 1, 0, -685}";
 }
@@ -36419,7 +36435,7 @@ unicode = 032E;
 },
 {
 glyphname = macronbelowcomb;
-lastChange = "2016-08-31 20:24:31 +0000";
+lastChange = "2022-09-29 12:30:22 +0000";
 layers = (
 {
 anchors = (
@@ -36434,6 +36450,7 @@ position = "{203, -119}";
 );
 components = (
 {
+alignment = -1;
 name = macron;
 transform = "{1, 0, 0, 1, 0, -695}";
 }
@@ -36454,6 +36471,7 @@ position = "{198, -141}";
 );
 components = (
 {
+alignment = -1;
 name = macron;
 transform = "{1, 0, 0, 1, 0, -697}";
 }
@@ -36559,7 +36577,7 @@ width = 272;
 },
 {
 glyphname = dieresiscomb.case;
-lastChange = "2016-08-31 19:50:47 +0000";
+lastChange = "2022-09-29 12:30:22 +0000";
 layers = (
 {
 anchors = (
@@ -36574,6 +36592,7 @@ position = "{193, 799}";
 );
 components = (
 {
+alignment = -1;
 name = dieresis;
 transform = "{1, 0, 0, 1, 0, 126}";
 }
@@ -36594,6 +36613,7 @@ position = "{229, 665}";
 );
 components = (
 {
+alignment = -1;
 name = dieresis;
 }
 );
@@ -36604,7 +36624,7 @@ width = 439;
 },
 {
 glyphname = dotaccentcomb.case;
-lastChange = "2016-08-31 19:55:20 +0000";
+lastChange = "2022-09-29 12:30:22 +0000";
 layers = (
 {
 anchors = (
@@ -36619,6 +36639,7 @@ position = "{165, 783}";
 );
 components = (
 {
+alignment = -1;
 name = dotaccent;
 transform = "{1, 0, 0, 1, 0, 140}";
 }
@@ -36639,6 +36660,7 @@ position = "{134, 667}";
 );
 components = (
 {
+alignment = -1;
 name = dotaccent;
 }
 );
@@ -36761,7 +36783,7 @@ width = 273;
 },
 {
 glyphname = hungarumlautcomb.case;
-lastChange = "2016-08-18 17:10:55 +0000";
+lastChange = "2022-09-29 12:30:22 +0000";
 layers = (
 {
 anchors = (
@@ -36776,6 +36798,7 @@ position = "{186, 819}";
 );
 components = (
 {
+alignment = -1;
 name = hungarumlaut;
 transform = "{1, 0, 0, 1, 0, 140}";
 }
@@ -36852,7 +36875,7 @@ width = 427;
 },
 {
 glyphname = caroncomb.case;
-lastChange = "2016-08-31 19:55:27 +0000";
+lastChange = "2022-09-29 12:30:22 +0000";
 layers = (
 {
 anchors = (
@@ -36867,6 +36890,7 @@ position = "{202, 824}";
 );
 components = (
 {
+alignment = -1;
 name = caron;
 transform = "{1, 0, 0, 1, 0, 140}";
 }
@@ -36897,7 +36921,7 @@ width = 427;
 },
 {
 glyphname = brevecomb.case;
-lastChange = "2016-08-18 15:40:00 +0000";
+lastChange = "2022-09-29 12:30:22 +0000";
 layers = (
 {
 anchors = (
@@ -36912,6 +36936,7 @@ position = "{216, 789}";
 );
 components = (
 {
+alignment = -1;
 name = breve;
 transform = "{1, 0, 0, 1, 0, 140}";
 }
@@ -36942,7 +36967,7 @@ width = 456;
 },
 {
 glyphname = ringcomb.case;
-lastChange = "2016-08-31 19:54:43 +0000";
+lastChange = "2022-09-29 12:30:22 +0000";
 layers = (
 {
 anchors = (
@@ -36957,6 +36982,7 @@ position = "{197, 839}";
 );
 components = (
 {
+alignment = -1;
 name = ring;
 transform = "{1, 0, 0, 1, 0, 140}";
 }
@@ -36977,6 +37003,7 @@ position = "{203, 707}";
 );
 components = (
 {
+alignment = -1;
 name = ring;
 transform = "{1, 0, 0, 1, -2, -7}";
 }
@@ -36988,7 +37015,7 @@ width = 409;
 },
 {
 glyphname = tildecomb.case;
-lastChange = "2016-09-07 22:52:22 +0000";
+lastChange = "2022-09-29 12:30:22 +0000";
 layers = (
 {
 anchors = (
@@ -37003,6 +37030,7 @@ position = "{246, 850}";
 );
 components = (
 {
+alignment = -1;
 name = tilde;
 transform = "{1, 0, 0, 1, 56, 183}";
 }
@@ -37023,6 +37051,7 @@ position = "{257, 708}";
 );
 components = (
 {
+alignment = -1;
 name = tilde;
 transform = "{1, 0, 0, 1, 0, 23}";
 }
@@ -37034,7 +37063,7 @@ width = 517;
 },
 {
 glyphname = macroncomb.case;
-lastChange = "2016-08-18 15:15:40 +0000";
+lastChange = "2022-09-29 12:30:22 +0000";
 layers = (
 {
 anchors = (
@@ -37049,6 +37078,7 @@ position = "{203, 769}";
 );
 components = (
 {
+alignment = -1;
 name = macron;
 transform = "{1, 0, 0, 1, 0, 140}";
 }
@@ -37069,6 +37099,7 @@ position = "{203, 644}";
 );
 components = (
 {
+alignment = -1;
 name = macron;
 }
 );
@@ -37482,7 +37513,7 @@ width = 368;
 },
 {
 glyphname = brevebelowcomb.case;
-lastChange = "2016-08-31 19:44:10 +0000";
+lastChange = "2022-09-29 12:30:22 +0000";
 layers = (
 {
 anchors = (
@@ -37497,6 +37528,7 @@ position = "{216, -140}";
 );
 components = (
 {
+alignment = -1;
 name = breve;
 transform = "{1, 0, 0, 1, 0, -686}";
 }
@@ -37517,6 +37549,7 @@ position = "{221, -159}";
 );
 components = (
 {
+alignment = -1;
 name = breve;
 transform = "{1, 0, 0, 1, 0, -724}";
 }
@@ -37572,7 +37605,7 @@ width = 403;
 },
 {
 glyphname = firsttonechinese;
-lastChange = "2016-08-31 15:05:10 +0000";
+lastChange = "2022-09-29 12:30:22 +0000";
 layers = (
 {
 components = (
@@ -37586,6 +37619,7 @@ width = 403;
 {
 components = (
 {
+alignment = -1;
 name = macron;
 transform = "{1, 0, 0, 1, 0, 147}";
 }
@@ -39413,7 +39447,7 @@ p = -80;
 "@MMK_R_v" = -20;
 };
 "@MMK_L_b" = {
-"@MMK_R_v" = -35;
+"@MMK_R_v" = 0;
 w = -25;
 x = -25;
 };
