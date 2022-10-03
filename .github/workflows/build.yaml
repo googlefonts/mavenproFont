@@ -37,7 +37,7 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0
-      - uses: m4rc1e/font-browser-tests-action@v0.1.8
+      - uses: m4rc1e/font-browser-tests-action@v0.1.9
         with:
           paths: ./fonts/variable
 
