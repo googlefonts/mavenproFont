@@ -15,9 +15,6 @@ jobs:
       uses: actions/setup-python@v2
       with:
         python-version: 3.8
-    - name: Install Linux dependencies
-      run: |
-        sudo snap install yq
     - name: Build font
       run: make build
     - uses: actions/upload-artifact@v3
