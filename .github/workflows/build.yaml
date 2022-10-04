@@ -37,7 +37,7 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0
-      - uses: m4rc1e/font-browser-tests-action@v0.2.5
+      - uses: m4rc1e/font-browser-tests-action@main
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           paths: ./fonts/variable
