@@ -22,7 +22,6 @@ jobs:
         path: 'fonts'
   
   screenshot:
-    secrets: inherit
     needs:
       - build-fonts
     strategy:
@@ -39,6 +38,7 @@ jobs:
           submodules: recursive
           fetch-depth: 0
       - uses: m4rc1e/font-browser-tests-action@main
+        secrets: inherit
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           paths: ./fonts/variable
