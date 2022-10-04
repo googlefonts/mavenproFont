@@ -28,6 +28,7 @@ jobs:
       matrix:
         os: [ubuntu-latest, macos-latest, windows-latest]
     runs-on: ${{ matrix.os }}
+    secrets: inherit
     steps:
       - uses: actions/download-artifact@v3
         with:
@@ -38,7 +39,6 @@ jobs:
           submodules: recursive
           fetch-depth: 0
       - uses: m4rc1e/font-browser-tests-action@main
-        secrets: inherit
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           paths: ./fonts/variable
