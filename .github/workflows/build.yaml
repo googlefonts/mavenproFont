@@ -44,8 +44,4 @@ jobs:
       - uses: m4rc1e/font-browser-tests-action@main
         with:
           paths: ./fonts/variable
-
-#      uses: m4rc1e/font-browser-tests-action@v0.1.7
-#      with:
-#        paths: ./fonts/variable
-#        fonts_before: 'google-fonts'
+          fonts_before: google-fonts
