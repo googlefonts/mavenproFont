@@ -44,7 +44,7 @@ jobs:
       - uses: m4rc1e/font-browser-tests-action@main
         with:
           paths: ./fonts/variable
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.GH_TOKEN }}
 
 #      uses: m4rc1e/font-browser-tests-action@v0.1.7
 #      with:
